@@ -1,11 +1,13 @@
+# Self Assessment
+To say I learned a lot during my time in the Computer Science program at Southern New Hamshire University would be an understatement. Throughout the program I learned everything from basic coding in multiple languages, such as Python, Java, and C++, to some more advanced concepts in the later classes. I found my strengths lie in databases. Using programs like SQL worked well with my understanding of numbers and collected data and showed me a new way to manipulate that information. In my ePortfolio, that is enhanced with my artifact centered around the MongoDB database system. As the program continued, I found that a lot of programing’s success is based off of working in a group or team. I have taken classes that worked in the Github and taught us how to do things like code review and working as a team to build a successful program. I have had experience with security while taking networking classes where I had to learn how to install and maintain a network. Software engineering is highlighted in enhancement one where I had to remove unused imports and updating the main method to add the while loop as well as adding comments for better readability. Enhancement two showcases data structures where I had to expand certain methods as well as type checking for the user input to allow the program to be more user friendly. 
+
+# The Artifact
+The artifact that I enhanced is the final project from CS340, specifically, part three of the final project. The program was originally created in June of 2020 as I finished up the Advanced Programming Concepts class. The artifact is a python module used to query a MongoDB database. I chose this artifact because not only was it simple enough to run and manipulate, but it also encompassed all three sections that needed to be highlighted for the ePortfolio. 
+
+You can view the entire enhanced artifact [here](https://github.com/djc0428/djc0428.github.io/blob/master/final_project_part3.py)
 
 # Code Review of Original Artifact
 <video src="2 CS499 Milestone 1.mp4" width="600" height="500" controls preload></video>
-
-# The Artifact
-The artifact that I enhanced is the final project from CS340, specifically, part three of the final project. The program was originally created in June of 2020 as I finished up the Advanced Programming Concepts class. The artifact is a python module used to query a MongoDB database.
-
-You can view the entire enhanced artifact [here](https://github.com/djc0428/djc0428.github.io/blob/master/final_project_part3.py)
 
 ## Enhancement One: Software Design and Engineering
 The section being looked at for the software design and engineering part of the portfolio showcases the use of multiple functions within the class, data structures, and common practices for software development. The improvements made were adding comments to make it more readable, made it more concise by removing unnecessary imports, and enhanced the usability by allowing the user to call any of the methods without changing the code and restarting the program. 
@@ -94,6 +96,3 @@ def find_by_Industry(industry):
   else:
     return result
 ```
-
-# Self Assessment 
-
