@@ -1,5 +1,7 @@
 ## Welcome to GitHub Pages
 
+<video src="2 CS499 Milestone 1.mp4" width="320" height="200" controls preload></video>
+
 You can use the [editor on GitHub](https://github.com/djc0428/djc0428.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
