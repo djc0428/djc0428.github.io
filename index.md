@@ -5,6 +5,8 @@
 # The Artifact
 The artifact that I enhanced is the final project from CS340, specifically, part three of the final project. The program was originally created in June of 2020 as I finished up the Advanced Programming Concepts class. The artifact is a python module used to query a MongoDB database.
 
+You can view the entire enhanced artifact [here] (https://github.com/djc0428/djc0428.github.io/blob/master/final_project_part3.py)
+
 ## Enhancement One: Software Design and Engineering
 The section being looked at for the software design and engineering part of the portfolio showcases the use of multiple functions within the class, data structures, and common practices for software development. The improvements made were adding comments to make it more readable, made it more concise by removing unnecessary imports, and enhanced the usability by allowing the user to call any of the methods without changing the code and restarting the program. 
 
