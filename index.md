@@ -1,8 +1,8 @@
 
-## Code Review of Original Artifact
+# Code Review of Original Artifact
 <video src="2 CS499 Milestone 1.mp4" width="600" height="500" controls preload></video>
 
-## The Artifact
+# The Artifact
 The artifact that I enhanced is the final project from CS340, specifically, part three of the final project. The program was originally created in June of 2020 as I finished up the Advanced Programming Concepts class. The artifact is a python module used to query a MongoDB database.
 
 ## Enhancement One: Software Design and Engineering
@@ -70,3 +70,28 @@ def find_Moving_Avg(high, low):
     return result
 ```
 ## Enhancement Three: Databases
+The goal for the changes in the section was to make the results easier to interpret, even when no results can be found. This, in the end, makes the program a little more user friendly. In determining how to check if there were no results I learned that python arrays have an inherent boolean property that allows you to check if it is false to determine if it is empty
+
+```python
+#User defined function find_by_Industry
+#Parameter:industry string
+#Returns list of ticker symbols for stocks within supplied industry
+def find_by_Industry(industry):
+  result = []
+
+  try:
+    myQuery = {"Industry": industry}
+    data = collection.find(myQuery, {"Ticker": 1, "_id": 0})
+    
+    for document in data:
+      result.append(document)
+    if not result:
+      result = "There were no results returned for the Industry: " + industry
+  except TypeError as te:
+    return str(te)
+  else:
+    return result
+```
+
+# Self Assessment 
+
