@@ -10,7 +10,11 @@ You can view the entire enhanced artifact [here](https://github.com/djc0428/djc0
 <video src="2 CS499 Milestone 1.mp4" width="600" height="500" controls preload></video>
 
 ## Enhancement One: Software Design and Engineering
-The section being looked at for the software design and engineering part of the portfolio showcases the use of multiple functions within the class, data structures, and common practices for software development. The improvements made were adding comments to make it more readable, made it more concise by removing unnecessary imports, and enhanced the usability by allowing the user to call any of the methods without changing the code and restarting the program. 
+The section being looked at for the software design and engineering part of the portfolio showcases the use of multiple functions within the class, data structures, and common practices for software development. The improvements made were adding comments to make it more readable, made it more concise by removing unnecessary imports, and enhanced the usability by allowing the user to call any of the methods without changing the code and restarting the program.
+
+### Reflection 
+
+When creating the original project the goal was to query the MongoDB database for the goals specified by the assignment. When improving it, I learned to create more concise and well documented code, as well as an increased focus on user interaction versus meeting technical guidelines. There weren’t too many challenges when tackling this part of the portfolio. I could look at determining which imports could be removed as a challenge, as well as providing comments that would clearly describe the methods without being overly wordy. Also I had to align the logic to toggle through each of the calls in the main methods. 
 
 Below is a snippet from the main method of the artifact showing the loop added to the method in order to allow the user to select from any of the queries. This previously could only be done by ending the connection and uncommenting the query to be used then restarting the connection.
 
@@ -25,8 +29,12 @@ def main():
     )
 ```
 ## Enhancement Two: Algorithms and Data Structure
-This time, the section being looked at for the algorithms and data structure section of my ePortfolio was mainly making the main method more efficient and expanding the find by average method. The improvements made were adding type checking to the user inputs for the high and low values to search by as well as swapping the high and low values when necessary.
+The section being looked at for the algorithms and data structure section of my ePortfolio was mainly making the main method more efficient and expanding the find by average method. The improvements made were adding type checking to the user inputs for the high and low values to search by as well as swapping the high and low values when necessary.
 
+### Reflection
+
+ When creating the original project the goal was to query the MongoDB database for the goals specified by the assignment. When improving it, I learned about how it is tricky to determine the typing of a variable in python. The best way to determine that is to try and convert to a float and if it failed, that showed it was not the correct type (string or double). The challenges were also shown in what I learned, where I had to determine the different types of variables in python. I had to try a few different methods before I was able to effectively determine if the input was a float. 
+ 
 This snippet shows the enhancements to the main method to type check the high and low values
 ```python
     if userInput == "h":
@@ -75,6 +83,10 @@ def find_Moving_Avg(high, low):
 ```
 ## Enhancement Three: Databases
 The goal for the changes in the section was to make the results easier to interpret, even when no results can be found. This, in the end, makes the program a little more user friendly. In determining how to check if there were no results I learned that python arrays have an inherent boolean property that allows you to check if it is false to determine if it is empty
+
+### Reflection
+
+When creating the original project, the goal was to query the MongoDB database for the goals laid out by the assignment. When focusing on database improvements, I learned how arrays in Python have built in boolean properties that allow you to see if the array is empty by checking if it is not true. The challenges with this section came from that property. Before, I wasn’t sure how to determine if the arrays were empty. After a little research I came to the realization stated above, and the rest of the modifications were simple enough from there. 
 
 ```python
 #User defined function find_by_Industry
